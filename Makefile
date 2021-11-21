@@ -9,7 +9,7 @@ clean_run: clean make run
 
 make:
 	${JAVA_HOME}/bin/javac src/JNI_Test.java -d generated/
-	${CC} ${LINKER_FLAG} -I${JAVA_HOME}/include -I${JAVA_HOME}/include/darwin NativeCFiles/JNI_Test.cpp -o generated/JNI_Test.o
+	${CC} ${LINKER_FLAG} -I${JAVA_HOME}/include -I${JAVA_HOME}/include/darwin NativeFiles/JNI_Test.cpp -o generated/JNI_Test.o
 	${CC} ${LINKER_FLAG_DYN} -o generated/libJNI_Test_Native_Lib.dylib generated/JNI_Test.o -lc 
 
 clean:
