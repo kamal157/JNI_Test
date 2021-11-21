@@ -1,11 +1,9 @@
-
 CC= g++
 LINKER_FLAG= -c -fPIC
 LINKER_FLAG_DYN= -dynamiclib
 
 run:make
 	@echo "System millis :::" ; ${JAVA_HOME}/bin/java -Dfile.encoding=UTF-8 -cp generated -Djava.library.path=generated/  JNI_Test 
-
 
 clean_run: clean make run
 
