@@ -1,1 +1,4 @@
-# JNI_Test
+
+just invoke 
+
+make run
