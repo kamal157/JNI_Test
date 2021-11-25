@@ -1,11 +1,6 @@
 /**
  * 
  */
-
-/**
- * @author kamal-3928
- *
- */
 public class JNI_Test {
 
 	//for mac os
