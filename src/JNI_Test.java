@@ -2,11 +2,6 @@
  * 
  */
 public class JNI_Test {
-
-	//for mac os
-	// g++ -c -fPIC -I{JAVA_HOME}/include -I{JAVA_HOME}/include/darwin JNI_Test.cpp -o JNI_Test.o
-	// g++ -dynamiclib -o libJNI_Test_Native_Lib.dylib JNI_Test.o -lc 
-	// {JAVA_HOME}/bin/java -Dfile.encoding=UTF-8 -classpath {CLASS_PATH}  JNI_Test -Djava.library.path={NATIVE_LIB_FOLDER}
 	
 	static
 	{
